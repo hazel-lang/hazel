@@ -38,7 +38,6 @@ MANIFEST
 
 ## General
 *.bak
-token
 conda/
 tmp/
 
