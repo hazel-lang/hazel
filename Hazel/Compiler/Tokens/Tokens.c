@@ -114,8 +114,8 @@ const char* token_toString(Token* token) {
         case STRING: return "STRING";       
         case RAW_STRING: return "RAW_STRING";   
         case TRIPLE_STRING: return "TRIPLE_STRING"; 
-        case TRUE: return "TRUE";
-        case FALSE: return "FALSE";
+        case TOK_TRUE: return "TRUE";
+        case TOK_FALSE: return "FALSE";
 
         // Operators 
         case PLUS: return "+";
